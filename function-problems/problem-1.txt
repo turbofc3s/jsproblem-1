@@ -1,0 +1,19 @@
+/*Write a JavaScript function that accepts a string as 
+a parameter and find the longest word within the string.
+*/
+
+
+ function findTheLongestWord(str) {
+   var arrayOfWords = str.split(" ");
+  var longestWord = "";
+   
+   for(var i = 0; i < arrayOfWords.length ; i++ ) {
+     if(arrayOfWords[i].length > longestWord.length) {
+        longestWord = arrayOfWords[i];
+       
+     }
+   }
+   return longestWord;
+ }
+   
+   console.log(findTheLongestWord("thats what im talking about"));
