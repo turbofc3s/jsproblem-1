@@ -1,0 +1,14 @@
+/* Write a function that checks whethere a passed in string is a 
+palindrome or not.
+*/
+
+function isItPalindrome(str) {
+  
+ let reversed = str.split("").reverse().join("");
+if (reversed === str)   return true;
+
+return  false;
+
+}
+
+console.log(isItPalindrome("mom"));
