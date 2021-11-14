@@ -1,6 +1,6 @@
-/*Write a JavaScript function that accepts a string as 
+//Write a JavaScript function that accepts a string as 
 a parameter and find the longest word within the string.
-*/
+
 
 
  function findTheLongestWord(str) {
@@ -16,4 +16,4 @@ a parameter and find the longest word within the string.
    return longestWord;
  }
    
-   console.log(findTheLongestWord("thats what im talking about"));
+console.log(findTheLongestWord("thats what im talking about"));

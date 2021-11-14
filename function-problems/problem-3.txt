@@ -1,0 +1,19 @@
+// //Write a JavaScript function that accepts two arguments, a string and a letter and the function will count the number of occurrences of the specified letter within the string. 
+
+// 1. define a function that accepts a  str and a letter
+// 2. split string into an array
+// 3. check string for the letter
+// 4. every time you see the desiered letter add plus one
+// 5. return the count of the letter
+
+function numberOfOccurences(str, letter) {
+  let occurences = 0;
+  
+  for (let i = 0; i < str.length; i++){
+    if (str.charAt(i) == letter ) {
+      occurences += 1;
+    }
+  }
+    return occurences;
+  }
+console.log(numberOfOccurences('everyone is here', 'e'));
