@@ -8,7 +8,7 @@
 function numberOfVowels(str) {
   const  arrayOfVowels = ["a", "e", "i", "o", "u"];
   let arrayOfLetters = str.toLowerCase().split("");
-  let vowelCount = 0
+  let vowelCount = 0;
   
   for(let i = 0; i < arrayOfLetters.length; i++) {
     if(arrayOfVowels.includes(arrayOfLetters[i])) {
