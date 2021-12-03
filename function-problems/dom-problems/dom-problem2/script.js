@@ -1,6 +1,7 @@
-/* will need to use the onclick function
-and link it to the href attribute
-create an onlick button
+/* 1. tell the computer to use the getElementById method to find the link attribute on the page
+2.then use the getAttribute to target the href attribute
+3. use innerHTML method on p2 to grab the information in the element 
+4. use the mybtn id and the onclick attribute (getHref()) to get the attribute of the link
 
 */
 function getHref(){
