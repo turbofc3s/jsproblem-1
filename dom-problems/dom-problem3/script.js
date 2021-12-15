@@ -10,9 +10,9 @@ first postion on the table
 function myFunction() {
 	const table = document.getElementById("theTable");
 	const row = table.insertRow(0);
-	let cell1 = row.insertCell(0);
-    let cell2 = row.insertCell(1);
-    let cell3 = row.insertCell(2);
+	const cell1 = row.insertCell(0);
+    const cell2 = row.insertCell(1);
+    const cell3 = row.insertCell(2);
     cell1.innerHTML = "rx7 ";
     cell2.innerHTML = "jet";
     cell3.innerHTML = "greyhound";
