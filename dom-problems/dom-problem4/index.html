@@ -5,16 +5,16 @@
 </head>
 <body>
     <form>	
-      <label for="beverages">Choose a beverage:</label>
+      <label for="drinks">Choose a beverage:</label>
 
-      <select id="drinks">
+      <select name="drinks" id="drinks" onchange="allTheDrinks()">
         <option value="Coke">Coke</option>
         <option value="Pepsi">Pepsi</option>
         <option value="Mountain Dew">Mountain Dew</option>
         <option value="Water">Water</option>
       </select>
     </form>
-    <input type="button" onclick="allTheDrinks()" value="Count and Output all items">
+   
     <p id="p1"></p>
 
 
