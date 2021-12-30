@@ -8,19 +8,19 @@ function allTheDrinks() {
 	let arrayOfOptions = document.getElementById("drinks").options;
 	let strOfOptions = "";
 	console.log(arrayOfOptions.length);
+	alert(document.getElementById("p1").innerHTML = arrayOfOptions.length);
 
 for (let i = 0; i < arrayOfOptions.length; i++) {
 	console.log(arrayOfOptions[i].value);
 
- strOfOptions + arrayOfOptions[i].value + " "
+ strOfOptions = strOfOptions + arrayOfOptions[i].value + " "
+ 
   
-  
-
-
-  
-  console.log()
-
+ 
+ 
+ 
 
 }
+alert(document.getElementById("p2").innerHTML = strOfOptions);
 
 }
