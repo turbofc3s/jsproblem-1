@@ -8,19 +8,13 @@ function allTheDrinks() {
 	let arrayOfOptions = document.getElementById("drinks").options;
 	let strOfOptions = "";
 	console.log(arrayOfOptions.length);
-	alert(document.getElementById("p1").innerHTML = arrayOfOptions.length);
+	let x = arrayOfOptions.length
+	document.getElementById("p1").innerHTML = "Found " +  x + " options in the list";
 
 for (let i = 0; i < arrayOfOptions.length; i++) {
 	console.log(arrayOfOptions[i].value);
 
  strOfOptions = strOfOptions + arrayOfOptions[i].value + " "
- 
-  
- 
- 
- 
-
-}
-alert(document.getElementById("p2").innerHTML = strOfOptions);
-
+ }
+	document.getElementById("p2").innerHTML = "Found these drinks " + strOfOptions;
 }
