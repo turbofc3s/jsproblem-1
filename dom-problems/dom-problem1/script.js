@@ -7,5 +7,5 @@ created an onclick event and set it equal to the name of my function
 
 function changeColor() {
 	console.log("hi");
-	document.querySelector('.box').style.backgroundColor = 'blue';
+	document.getElementById('box').style.backgroundColor = 'blue';
 }
