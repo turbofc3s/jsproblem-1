@@ -7,18 +7,7 @@ NOTE: Do NOT use the Set method.
 2. set up for each loop to check for duplicae the items in the array
 3. remove duplicate items from array into new array
 */
-let girls = ["becky", "dana", "becky", "Monica", "rachel","brandy"]  
 
-function myGirls (arry) {
-	let newOne = [];  
-	arry.forEach(item) => {  
-   		if (!newOne.includes(item)) {  
-      		newOne.push(item);        	
-      }
-   });
-   return newOne;
-   }  
-console.log(myGirls(girls));  
 
 let girls = ["becky", "dana", "becky", "Monica", "rachel","brandy"]  
 function myGirls (arry) {
