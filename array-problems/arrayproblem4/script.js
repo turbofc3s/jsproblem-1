@@ -11,7 +11,7 @@ let girls = ["becky", "dana", "becky", "Monica", "rachel","brandy"]
 
 function myGirls (arry) {
 	let newOne = [];  
-	arry.forEach(item => {  
+	arry.forEach(item) => {  
    		if (!newOne.includes(item)) {  
       		newOne.push(item);        	
       }
@@ -19,6 +19,22 @@ function myGirls (arry) {
    return newOne;
    }  
 console.log(myGirls(girls));  
+
+let girls = ["becky", "dana", "becky", "Monica", "rachel","brandy"]  
+function myGirls (arry) {
+    let newOne = []; 
+
+    for(let i = 0; i < arry.length; i++) {
+        if(!newOne.includes(arry[i])) {
+            newOne.push(arry[i]);
+        };
+    };
+    return newOne;
+};
+
+console.log(myGirls(girls));  
+
+
 
     
 
