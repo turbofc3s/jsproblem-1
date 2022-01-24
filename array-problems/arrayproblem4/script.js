@@ -10,18 +10,18 @@ NOTE: Do NOT use the Set method.
 
 
 let girls = ["becky", "dana", "becky", "Monica", "rachel","brandy"]  
-function myGirls (arry) {
-    let newOne = []; 
+function removeDuplicates (arry) {
+    let updatedArray = []; 
 
     for(let i = 0; i < arry.length; i++) {
-        if(!newOne.includes(arry[i])) {
-            newOne.push(arry[i]);
+        if(!updatedArray.includes(arry[i])) {
+            updatedArray.push(arry[i]);
         };
     };
-    return newOne;
+    return updatedArray;
 };
 
-console.log(myGirls(girls));  
+console.log(removeDuplicates(girls));  
 
 
 

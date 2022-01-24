@@ -9,11 +9,11 @@ use for loop  and stop at n number
 
 */
 let cars = ["black", "white", "yellow", "red", "blue", "purple", "orange"]
-let Things = ["toys", "cars", "airplanes", "trucks"]
+let things = ["toys", "cars", "airplanes", "trucks"]
 function firstElements (arry, num) {
 	
 	return arry.slice(0, num)//  grabs the first num indexes
 		
 	}
 
-console.log(firstElements(Things, 2))
+console.log(firstElements(things, 2))
