@@ -8,7 +8,7 @@ let threeObjects = {
 	type: "new",
     age: 42,
     shape: "round"
-    
+
 };
 
 function lengthOfObject (obj) {
@@ -17,3 +17,4 @@ function lengthOfObject (obj) {
 
 };
 console.log(lengthOfObject(threeObjects))
+ 
