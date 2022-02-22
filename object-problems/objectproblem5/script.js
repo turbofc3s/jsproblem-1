@@ -11,7 +11,7 @@ let bookInfo = [
    ];
 
    function titleOrder (arry) {	
-      arry.sort(function(a, b){
+     return arry.sort(function(a, b){
   let x = a.title.toLowerCase();
   let y = b.title.toLowerCase();
   if (x < y) {return -1;}
