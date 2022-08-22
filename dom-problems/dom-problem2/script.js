@@ -6,7 +6,8 @@
 */
 function getHref(){
 	const linkUrl = document.getElementById("link").getAttribute("href");
-	document.getElementById("p2").innerHTML = linkUrl;
+	
+	document.getElementById("p3").innerHTML = linkUrl;
 	
 
 }
