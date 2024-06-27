@@ -1,20 +1,28 @@
-/*Problem 4: Create an HTML page with a dropdown list with 
-three items in it, then write a JavaScript function that 
-displays the number of items and displays the item in the list.
-*/
+// Problem 4: Create an HTML page with a dropdown list with 
+// three items in it, then write a JavaScript function that 
+// displays the number of items and displays the item in the list.
+
 		
 
-function allTheDrinks() {
-	let arrayOfOptions = document.getElementById("drinks").options;
-	let strOfOptions = "";
-	console.log(arrayOfOptions.length);
-	let x = arrayOfOptions.length
-	document.getElementById("p1").innerHTML = "Found " +  x + " options in the list";
+function getOptions(){
+    //grab the select element with the corresponding ID;
+    const myDrinks= document.getElementById("drinks")
 
-for (let i = 0; i < arrayOfOptions.length; i++) {
-	console.log(arrayOfOptions[i].value);
+    //grab the number of items inside the select element;                      
+    const numOfItems = document.getElementById("drinks").length;             
+    // console.log(numOfItems);
 
- strOfOptions = strOfOptions + arrayOfOptions[i].value + " "
- }
-	document.getElementById("p2").innerHTML = "Found these drinks " + strOfOptions;
+
+    //grab the selected dropdown option
+    const selectedOption = myDrinks.options[myDrinks.selectedIndex].value;
+    let stringOfOptions = "";
+    console.log(selectedOption);
+
+    for (let i = 0; i < myDrinks.length; i++) {
+        stringOfOptions = selectedOption + ", " + numOfItems;
+    }
+
+    
+    document.getElementById("p1").innerHTML = stringOfOptions;
 }
+    

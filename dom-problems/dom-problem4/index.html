@@ -4,18 +4,16 @@
 	<title>Problem 4</title>
 </head>
 <body>
-    <form>	
-      <label for="drinks">Choose a beverage:</label>
-
-      <select name="drinks" id="drinks" onchange="allTheDrinks()">
+    <p>Choose your drink</p>
+    <select id="drinks" onchange="getOptions()">
         <option value="Coke">Coke</option>
         <option value="Pepsi">Pepsi</option>
         <option value="Mountain Dew">Mountain Dew</option>
         <option value="Water">Water</option>
-      </select>
-    </form>
+
+    </select>
     <p id="p1"></p>
-    <p id="p2"></p>
+
 	<script src="script.js"></script>
 </body>
 </html>
